@@ -1,0 +1,146 @@
+
+ header.header {
+    background-image: url("../../assets/images/header-bg.jpg");
+    background-size: 100% auto;
+    height: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+}
+
+ header.header .blue {
+    bottom: -65px;
+    height: 525px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+ header.header .container {
+    position: relative
+}
+
+ header.header .white img,
+ header.header .blue img {
+    width: 100%;
+}
+
+ header.header .white {
+    bottom: -105px;
+    height: 525px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+ header.header .logo h2 {
+    margin: 0;
+    padding: 0
+}
+
+ header.header .logo h2 a {
+    font-family: 'Croissant One', cursive;
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+
+ header.header ul.nav.navbar-nav li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+ header.header ul.nav.navbar-nav {
+    float: right;
+}
+
+ header.header ul.nav.navbar-nav li :hover {
+    background: transparent
+}
+
+ header.header .header-text {
+    margin: 0 auto;
+    padding-top: 130px;
+    text-align: center;
+    width: 770px;
+}
+
+ header.header .header-text h1 {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+ header.header .header-text h1::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 130px;
+    position: absolute;
+    width: 500px;
+}
+
+ header.header .header-text p {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 57px;
+}
+
+ header.header .header-text button {
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #fff;
+    border-radius: 60px / 61px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 170px;
+    margin-right: 27px;
+    padding: 14px 50px;
+}
+
+ header.header .header-text button:hover {
+    background: #fff;
+    color: #11bdd7;
+}
+
+ header.header .another-text h3 {
+    color: #455a64;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 17px;
+    position: relative;
+    margin-top: 40px;
+}
+
+ header.header .another-text h3::before {
+    background: #455a64 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    bottom: 0px;
+    width: 70px;
+}
+
+ header.header .another-text p {
+    color: #78909c;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 15px;
+}
